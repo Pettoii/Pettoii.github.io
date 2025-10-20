@@ -1,0 +1,82 @@
+Compris ! Je modifie ça pour bien insister que tu n’as **pas fait le level design**, et que c’est un collègue qui s’en est chargé.
+
+Voici la version corrigée avec cette précision :
+
+---
+
+## 🟦 **Cubequest**
+
+**Type de jeu :** Puzzle-platformer  |  **Durée :** ~10–20 minutes
+**Moteur utilisé :** Unreal Engine 4
+**Rôle :** Programmeur (équipe de 4 personnes)
+
+---
+
+### 🎮 Présentation
+
+**Cubequest** est un jeu de puzzle et de plateforme dans lequel on incarne **Cube**, un robot venu du futur. Le but est de traverser trois mondes distincts pour récupérer des pièces essentielles, puis revenir au point de départ. Le gameplay repose sur un concept original : **le joueur possède une "valeur" numérique (entre 1 et 9)**, qui affecte sa **taille, ses interactions et ses capacités**.
+
+---
+
+### 🧩 Mécaniques principales
+
+* **Score dynamique :** Le cube affiche une valeur entre 1 et 9. Si cette valeur tombe en dehors de cet intervalle, le joueur meurt.
+* **Changement de taille :**
+
+  * 1–3 : Petit
+  * 4–6 : Moyen
+  * 7–9 : Grand
+* **Batteries colorées :** Modifient la valeur du joueur selon des opérations (addition, soustraction, multiplication, division), chaque couleur ayant un effet différent.
+* **Balle interactive :** Le joueur peut lancer une balle dont la portée dépend de sa taille. Cette balle peut également interagir avec les batteries et résoudre des énigmes à distance.
+* **Interaction systémique :** La majorité des mécaniques du jeu peuvent interagir entre elles, ce qui donne lieu à des puzzles dynamiques et créatifs.
+
+---
+
+### 🌍 Univers & niveaux
+
+* **Monde 1 – Tutoriel :** Une usine/fusée.
+* **Monde 2 – Forêt :** Paysages naturels, lac et montagne.
+* **Monde 3 – Île volcanique :** Plage, lave et décors tropicaux.
+
+*Le level design a été réalisé par un collègue de l’équipe avec qui j’ai travaillé étroitement.*
+
+---
+
+### 🛠 Ce que j’ai fait
+
+* Programmation **de toutes les mécaniques de gameplay**
+* Intégration et **gestion des interactions complexes** entre les systèmes
+* Création de textures pour le prototype
+* Collaboration avec une équipe de 4 personnes (programmeurs, artistes, level designer)
+* Tests internes, équilibrage des puzzles et ajustement de la difficulté
+
+---
+
+### 🧠 Défis & apprentissages
+
+* **Challenge principal :** Assurer que toutes les mécaniques interagissent sans bugs ni conflits
+* **Compétences développées :**
+
+  * Programmation avancée sous Unreal Engine
+  * Résolution de problèmes système
+  * **Gestion du temps et de la production en 4 semaines**
+  * Expérience de travail en équipe, y compris dans un contexte où tous les membres n’étaient pas également impliqués
+
+---
+
+### ✅ Résultat
+
+Le jeu est **complet et jouable**, et a reçu des retours positifs lors des tests. Il est en cours de préparation pour être publié sur **itch.io** (optimisation visuelle, nettoyage de l’interface, amélioration générale de la présentation).
+
+---
+
+### 💡 Ce dont je suis fier
+
+* Le système de **score dynamique lié à la taille et aux interactions**
+* La fluidité des mécaniques combinées (score, taille, balle)
+* Le respect du délai avec un jeu **jouable, cohérent et original**
+* Le secret **"4"**
+
+---
+
+Veux-tu que je t’aide à rédiger une introduction ou conclusion pour cette présentation ? Ou un résumé plus court pour LinkedIn ?
