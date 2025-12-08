@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Project Phoenix | Lead Programmer Portfolio</title>
+    <style>
+        body {
+            background-color: DimGray;
+            color: white;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+        }
+        a {
+            color: lightblue;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        h1 {
+            font-size: 300%;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        h2, h3 {
+            margin-top: 30px;
+            color: lightcoral;
+        }
+        section {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border-left: 5px solid #666;
+        }
+        ul {
+            padding-left: 20px;
+        }
+
+        /* Enemy Showcase CSS - Corrected class application */
+        .enemy-showcase {
+            display: block;
+            margin: 20px auto;
+            width: 100%;       /* Makes it responsive */
+            max-width: 300px;  /* Limits the absolute size */
+            height: auto;      /* Keeps aspect ratio */
+            border: 2px solid #555;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.2); 
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .enemy-showcase:hover {
+            transform: scale(1.05);
+            border-color: #ff3333;
+            cursor: crosshair;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="../index.html">⟵ Back</a>
+
+    <h1>Project Phoenix</h1>
+
+    <section>
+        <h2>The Premise</h2>
+        <p>In the near future, military scientists are incarcerated in an underwater prison following a global peace declaration. When a glitch reverts your guard-bot creations back to their combat state, survival becomes a matter of stealth and precision. You play as Wagner, navigating the dark abyss to restore power to an escape elevator.</p>
+        
+        <img src="../Photo/robot.png" alt="E-4 Enemy Robot" class="enemy-showcase"/>
+        
+        <p style="text-align: center; font-style: italic;">The "E-4" Unit: A lethal military bot moving with erratic, glitched patterns.</p>
+    </section>
+
+    <section>
+        <h2>Technical Role: Lead Programmer</h2>
+        <p>On a 3-month student project, I served as the Lead Programmer, maintaining technical stability and core gameplay systems. My key contributions include:</p>
+        <ul>
+            <li><strong>Core Gameplay Mechanics:</strong> Programmed the stun gun (limited to 2 charges), battery management, and flashlight mechanics.</li>
+            <li><strong>Systems Engineering:</strong> Developed the environmental interaction systems for doors and a custom spawn/respawn framework.</li>
+            <li><strong>Audio Implementation:</strong> Balanced and integrated spatialized 3D audio to create a high-tension, claustrophobic soundscape.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Technical Hurdle: Dynamic UI & Animation</h2>
+        <p>I designed a high-polish Main Menu featuring animated backgrounds and "glitched" text effects. This posed a significant technical challenge within Unreal Engine's UMG system:</p>
+        <ul>
+            <li><strong>The Problem:</strong> Standard UI widgets do not natively support render materials for complex glitch effects.</li>
+            <li><strong>The Solution:</strong> I converted a sequence into a custom <strong>sprite sheet</strong> and created a <strong>UI Material</strong> that functioned as a high-performance "cheap flipbook."</li>
+            <li><strong>Result:</strong> This allowed for fluid, aesthetic animations that matched the game's theme without compromising performance.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Production Constraints</h2>
+        <p>Developed in <strong>Unreal Engine 5.4</strong>. Despite team downsizing mid-production, we successfully created all original assets and custom meshes, ensuring a unique visual identity and a polished stealth-horror experience.</p>
+    </section>
+
+</body>
+</html>

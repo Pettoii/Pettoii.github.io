@@ -1,11 +1,149 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bobby Bob | Pettoii Portfolio</title>
+    <style>
+        body {
+            background-color: DimGray;
+            color: white;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+        }
+        a {
+            color: lightblue;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: 0.3s;
+        }
+        a:hover {
+            color: lightcoral;
+        }
+        h1 {
+            font-size: 300%;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .nickname {
+            text-align: center;
+            font-size: 1.5em;
+            color: lightcoral;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        h2 {
+            margin-top: 30px;
+            color: lightcoral;
+            border-bottom: 1px solid #777;
+            padding-bottom: 5px;
+        }
+        section {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border-left: 5px solid #666;
+            transition: transform 0.3s ease;
+        }
+        section:hover {
+            transform: translateX(10px);
+            background-color: #4a4a4a;
+        }
+        
+        /* Lively Profile Image Layout */
+        .profile-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid lightcoral;
+            box-shadow: 0 0 15px rgba(240, 128, 128, 0.3);
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        ul li {
+            margin-bottom: 5px;
+            transition: color 0.2s;
+        }
+        ul li:hover {
+            color: lightcoral;
+        }
+        .contact-links {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background: #333;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
 <body>
-<a href='../index.html'> Retour <a/>
-­­<h1> Vincent Langlois </h1>
-<h1> Chose à faire le about me </h1>
-<h2> Apprendre plus le programme <br>
-le faire <br>
-mettre les jeux <Br>
-testé<br>
-<body>
-<html>
+
+    <a href="../index.html">⟵ Back</a>
+
+    <h1>Bobby Bob</h1>
+    <div class="nickname">Pettoii — Generalist Game Developer</div>
+
+    <section class="profile-container">
+        <img src="../Photo/Unknow.png" alt="Pettoii Profile" class="profile-pic">
+        
+        <div style="flex: 1; min-width: 300px;">
+            <h2>The Developer</h2>
+            <p>Growing up with a passion for gaming led me naturally into the world of Level and Game Design. I am a technical developer who speaks the language of designers. I thrive in team environments, focusing on the synergy required to deliver complex projects on schedule.</p>
+        </div>
+    </section>
+
+    <section>
+        <p>As a <strong>Lead Programmer</strong>, I believe code is a communication tool. Whether presenting logic to non-technical teammates through real-world comparisons or building accessible systems, my priority is ensuring total team alignment and a shared understanding of project architecture.</p>
+    </section>
+
+    <section>
+        <h2>Workflow & Leadership</h2>
+        <ul>
+            <li><strong>Collaboration:</strong> Proficient in <strong>Perforce (P4V)</strong> version control for large-scale team integration.</li>
+            <li><strong>Technical Communication:</strong> Skilled at simplifying complex technical hurdles into designer-friendly concepts.</li>
+            <li><strong>Self-Documenting Code:</strong> I prioritize clear commenting on critical systems to ensure maintainability for future review.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Technical Arsenal</h2>
+        <div class="skills-grid">
+            <div>
+                <strong>Engines & Programming:</strong>
+                <ul>
+                    <li>UE5 Blueprints (Lead Level)</li>
+                    <li>Godot Engine</li>
+                    <li>HTML5 / Web Development</li>
+                </ul>
+            </div>
+            <div>
+                <strong>Generalist Versatility:</strong>
+                <ul>
+                    <li>Level Design Implementation</li>
+                    <li>Technical UI (Materials/Shaders)</li>
+                    <li>Audio System Integration</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="contact-links">
+        <a href="https://linkedin.com/in/fictive-bobby-bob" target="_blank">LinkedIn</a> | 
+        <a href="https://github.com/Pettoii-Fictive" target="_blank">GitHub</a>
+    </div>
+
+</body>
+</html>
